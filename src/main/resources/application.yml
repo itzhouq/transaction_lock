@@ -1,0 +1,9 @@
+mybatis:
+  configuration:
+    mapUnderscoreToCamelCase: true
+spring:
+  datasource:
+    url:
+    username:
+    password:
+    driver-class-name: com.mysql.jdbc.Driver
