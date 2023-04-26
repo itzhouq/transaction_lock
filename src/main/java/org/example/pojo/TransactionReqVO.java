@@ -11,6 +11,8 @@ import java.io.Serializable;
 @Builder
 public class TransactionReqVO {
 
+    private Long id;
+
     private Long userId;
 
     private Long money;

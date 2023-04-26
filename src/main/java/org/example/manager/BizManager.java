@@ -7,4 +7,6 @@ import java.util.List;
 public interface BizManager {
 
     boolean transactionMoney(List<TransactionReqVO> transactionReqVOList) throws Exception;
+
+    void testData();
 }
