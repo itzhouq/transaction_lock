@@ -36,7 +36,7 @@ public class TestServiceImpl implements TestTableService {
     }
 
     @Override
-//    @Transactional(propagation = Propagation.REQUIRES_NEW)
+    @Transactional(propagation = Propagation.REQUIRES_NEW)
     public void updateTableData(TransactionReqVO transactionReqVO) {
         try {
             // 删除数据
